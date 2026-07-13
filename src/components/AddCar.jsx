@@ -109,7 +109,7 @@ const AddCar = () => {
 <select id="" className="form-control" name="vehicle_type" value={input.vehicle_type} onChange={inputHandler}>
     <option value ="Hatchback" className="options">Hatchback</option>
     <option value ="Sedan" className="options">Sedan</option>
-    <option value ="XUV" className="options">SUV</option>
+    <option value ="SUV" className="options">SUV</option>
     <option value ="MUV" className="options">MUV</option>
     <option value ="Luxury" className="options">Luxury</option>
 </select>
@@ -161,7 +161,7 @@ const AddCar = () => {
 
 
 <label htmlFor="" className="form-label">City</label>
-<input type="email" className="form-control" name="city" value={input.city} onChange={inputHandler}/>
+<input type="text" className="form-control" name="city" value={input.city} onChange={inputHandler}/>
 
 
         </div>
