@@ -146,6 +146,16 @@ const AddCar = () => {
 
 
         </div>
+
+        <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col xl-4 col-xxl-4">
+
+<label htmlFor="" className="form-label">Rent per day</label>
+<input type="text" className="form-control" name="rent_per_day" value={input.rent_per_day} onChange={inputHandler}/>
+
+
+        </div>
+
+
         <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col xl-4 col-xxl-4">
 
 
