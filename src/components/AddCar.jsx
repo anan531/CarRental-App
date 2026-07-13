@@ -1,5 +1,6 @@
 import axios from "axios"
 import { useState } from "react"
+import Navigation from "./Navigation"
 
 const AddCar = () => {
 
@@ -70,7 +71,7 @@ const AddCar = () => {
 
 
     <div>
-
+<Navigation/>
 <h1 align="center">Add Car Form</h1>
 
 <div className="container">

@@ -1,5 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
+import Navigation from "./Navigation"
 
 const ViewCar = () => {
 
@@ -37,7 +38,7 @@ const[data,changeData] = useState([])
 
   return (
     <div>
-
+<Navigation/>
 <h1 align= "center">View Cars</h1>    
 
 
