@@ -1,5 +1,5 @@
 import axios from "axios"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const ViewCar = () => {
 
@@ -68,6 +68,8 @@ const[data,changeData] = useState([])
     <p class="card-text">{value.transmission}</p>
     <p class="card-text">{value.seating_capacity}</p>
     <p class="card-text">{value.rent_per_day}</p>
+    <p class="card-text">{value.city}</p>
+    <p class="card-text">{value.availability_status}</p>
   </div>
 </div>
 
